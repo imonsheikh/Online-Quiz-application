@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+
+}
+.appBody{
+    border: 3px dotted #d1d6d6;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    /* box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 50px; */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+
+    box-shadow: 5px 9px 35px 0px rgba(0,0,0,0.73);
+-webkit-box-shadow: 5px 9px 35px 0px rgba(0,0,0,0.73);
+-moz-box-shadow: 5px 9px 35px 0px rgba(0,0,0,0.73);
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.appBody.active{
+    border: 2px solid rebeccapurple;
+}
+.icon{
+    color: rebeccapurple;
+    font-size: 110px;
+}
+.appBody h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+}
+.appBody span{
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0 18px 0;
+}
+.appBody button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.appBody{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   object-fit: cover; 
+}
